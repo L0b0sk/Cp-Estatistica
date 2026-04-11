@@ -12,7 +12,9 @@ SISTEMA DE PROCESSAMENTO LOGÍSTICO INTELIGENTE
 7. EQUIPE
 
 =====================================================
+
 1.DESCRICAO DO PROJETO
+
 =====================================================
 O Sistema de Processamento Logístico Inteligente é uma aplicação desenvolvida 
 em Python com o objetivo de analisar e organizar pedidos logísticos com base 
@@ -26,7 +28,9 @@ O projeto simula um fluxo logístico real, considerando fatores como urgência,
 tempo estimado de entrega e status de pagamento.
 
 =====================================================
+
 2.FUNCIONALIDADES
+
 =====================================================
 O sistema contempla as seguintes funcionalidades:
 
@@ -60,7 +64,9 @@ O sistema contempla as seguintes funcionalidades:
         * Gráfico de pizza (distribuição de urgência)
 
 =====================================================
+
 3.TECNOLOGIAS USADAS
+
 =====================================================
    - Python 
    - Pandas
@@ -69,7 +75,9 @@ O sistema contempla as seguintes funcionalidades:
    - OS
 
 =====================================================
-4.
+
+4.ESTRUTURA DO PROJETO 
+
 =====================================================
 projeto/
    │
@@ -101,7 +109,9 @@ Estrutura interna do código:
         * Criação dos gráficos
 
 =====================================================
-5.
+
+5.GUIA DE USO
+
 =====================================================
 - PRÉ-REQUISITOS
 
@@ -140,7 +150,9 @@ Estrutura interna do código:
     *grafico_urgencia.png
 
 =====================================================
-6.
+
+6.CARACTERISTICAS TECNICAS
+
 =====================================================
 - USO DE DEQUE
 
@@ -169,7 +181,9 @@ Estrutura interna do código:
    - Gráfico de pizza com porcentagem
 
 =====================================================
-7.
+
+7.EQUIPE
+
 =====================================================
 - Desenvolvimento Principal:  Giovanni Tarzoni Piccin 
 		                          RM:564014
