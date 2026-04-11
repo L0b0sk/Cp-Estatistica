@@ -12,11 +12,11 @@ SISTEMA DE GERENCIAMENTO DE PEDIDOS LOGÍSTICOS
 7. CARACTERÍSTICAS TÉCNICAS
 8. CONTRIBUIÇÃO
 
-=================================================================================
+===========================================================================
 
 1. DESCRIÇÃO DP PROJERO
    
-=================================================================================
+===========================================================================
 
 O Sistema de Gerenciamento de Pedidos Logísticos é uma aplicação desenvolvida 
 em Python com o objetivo de simular o processamento e despacho de cargas com 
@@ -29,11 +29,11 @@ prática para organização logística.
 O sistema permite cadastro dinâmico de pedidos, ordenação por urgência, 
 processamento automatizado e geração de relatórios gráficos para análise.
 
-=================================================================================
+===========================================================================
 
 2. FUNCIONALIDADES
 
-=================================================================================
+===========================================================================
 
 O sistema contém as seguintes funcionalidades:
 
@@ -65,9 +65,64 @@ O sistema contém as seguintes funcionalidades:
         * Gráfico de pizza com distribuição de urgência
         * Visualização clara para análise de dados
 
-=================================================================================
+===========================================================================
 
 3. TECNOLOGIAS USADAS
 
-=================================================================================
+===========================================================================
 
+A seguir estão listadas as principais tecnologias empregadas no desenvolvimento:
+
+   - Python 3
+        * Linguagem principal do sistema
+
+   - Pandas
+        * Manipulação e estruturação dos dados em DataFrame
+        * Base para geração dos relatórios
+
+   - Matplotlib
+        * Criação dos gráficos (barras e pizza)
+
+   - Collections.deque
+        * Implementação de fila eficiente (FIFO)
+        * Utilizada no processamento dos pedidos
+    
+===========================================================================
+
+4. ESTRUTURA DO PROJETO
+
+===========================================================================
+
+A organização dos arquivos do projeto segue a seguinte estrutura:
+
+   projeto/
+   │
+   |-- cp.py                        # Arquivo principal com toda a lógica do sistema
+   │
+   |-- README.md                   # Documentação técnica do projeto
+   
+
+Estrutura interna do código:
+
+   - Dados Iniciais
+        * Lista de dicionários contendo pedidos pré-cadastrados
+
+   - Função adicionar_pedidos()
+        * Responsável pela entrada de novos dados via terminal
+        * Contém validações completas de entrada
+
+   - Ordenação de Pedidos
+        * Utiliza função sorted() com base em pesos de urgência
+
+   - Fila de Processamento
+        * Implementada com deque
+        * Armazena pedidos como tuplas imutáveis
+
+   - Função despachar_pedidos()
+        * Processamento recursivo da fila
+        * Registro da ordem de saída
+
+   - Função gerar_relatorio()
+        * Geração de gráficos com base nos dados processados
+
+===========================================================================
