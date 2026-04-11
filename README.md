@@ -185,13 +185,6 @@ Estrutura interna do código:
 7.EQUIPE
 
 =====================================================
-- Desenvolvimento Principal:  Giovanni Tarzoni Piccin 
-		                          RM:564014
-						                  Enrico gianni nóbrega puttini 
-						                  rm: 561400
-						                  Jean Carlos Rodrigues da Silva
-						                  Rm: 566439
-						                  Bruno Lobosque
-						                  Rm:561254
+- Desenvolvimento Principal:  Giovanni Tarzoni Piccin RM:564014,Enrico gianni nóbrega puttini RM: 561400, Jean Carlos Rodrigues da Silva RM: 566439, Bruno Lobosque Rm:561254
 
 =====================================================
